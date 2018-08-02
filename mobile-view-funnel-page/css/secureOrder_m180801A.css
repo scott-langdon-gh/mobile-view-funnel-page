@@ -1,0 +1,183 @@
+@font-face{font-family:'Proxima_Nova_light';
+src:url('../fonts/proximanova-light-webfont.eot');
+src:url('../fonts/proximanova-light-webfont.woff') format('woff'),
+url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-light-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_lightItalic';
+src:url('../fonts/proximanova-lightitalic-webfont.eot');
+src:url('../fonts/proximanova-lightitalic-webfont.woff') format('woff'),
+url('../fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-lightitalic-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_Regular';
+src:url('../fonts/proximanova-reg-webfont.eot');
+src:url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-reg-webfont.svg') format('svg');
+font-weight:300;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_SemiBold';
+src:url('../fonts/proximanova-sbold-webfont.eot');
+src:url('../fonts/proximanova-sbold-webfont.woff') format('woff'),
+url('../fonts/proximanova-sbold-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-sbold-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+
+body {
+	font-family: "Proxima_Nova_Regular", serif;
+	margin:0;
+}
+
+.text-light {
+	font-family: 'Proxima_Nova_light', serif;
+}
+
+.header {	
+	height: 55px;
+	background-color: #FFFFFF;	
+	box-shadow: 0 2px 9px 0 rgba(0,0,0,0.06);
+	z-index:2;
+    position: fixed; 
+    width: 100%;
+    margin-top: -10px;
+}
+
+.product-content {
+	margin-top: 10px;
+	position:relative;
+    top: 60px;
+    padding-bottom: 30px;
+}
+.container {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.gundry-md-logo {
+	width: 133px;
+	margin-top: 2%;
+}
+
+.leftAlign {
+	text-align: left;
+	margin-left: 9%;
+}
+	.leftAlign p {
+		margin-top: 2px; 
+		margin-bottom: 2px; 
+	}
+
+
+.total-restore-mockup {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 27%;
+}
+
+.vip-buttons {
+	margin-bottom: 10px;
+}
+
+.vip-button {
+	background-color: #F1F1F1;
+	border-radius: 20px;
+	width: 100px;
+	display: inline-block;
+	padding: 10px;
+	color: #707070;
+}
+
+.active-vip-button {
+	background-color: #4A90E2;
+	color: #FFFFFF;
+}
+
+.quantity {
+	margin-bottom: 10px;
+}
+
+.quantity-buttons {
+	margin-bottom: 10px;
+}
+
+.quantity-button {
+	display: inline-block;
+	height: 40px;
+	width: 81px;
+	border: 2px solid rgba(74,144,226,0.27);
+	border-radius: 20px;
+}
+
+.quantity-button span{
+	height: 32px;
+	width: 10px;
+	color: rgba(74,144,226,0.27);
+	font-size: 26px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.active-quantity-button {
+	height: 40px;
+	width: 81px;
+	border-radius: 20px;
+	background-color: #4990E2;
+}
+
+.active-quantity-button span {
+	color: #FFFFFF;
+}
+
+.price {
+	color: #4A90E2;
+	font-size: 20px;
+	margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.retail-price {
+	color: #4A4A4A;
+	text-decoration: line-through;
+	font-size: 14px;
+	letter-spacing: -0.12px;
+	margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.now-price {
+	color: #29397B;
+	font-size: 30px;
+	margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.free-shipping {
+	color: #4A4A4A;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.buy-button {
+	border-radius: 20px;
+	background: linear-gradient(180deg, #FFC073 0%, #FB8143 100%);
+	height: 40px;
+	width: 270px;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.buy-button span {
+	color: #FFFFFF;
+	font-size: 26px;
+	line-height: 32px;
+}
+
+
+
