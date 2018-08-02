@@ -1,0 +1,48 @@
+﻿@font-face{font-family:'Proxima_Nova_light';
+src:url('../fonts/proximanova-light-webfont.eot');
+src:url('../fonts/proximanova-light-webfont.woff') format('woff'),
+url('../fonts/proximanova-light-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-light-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_lightItalic';
+src:url('../fonts/proximanova-lightitalic-webfont.eot');
+src:url('../fonts/proximanova-lightitalic-webfont.woff') format('woff'),
+url('../fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-lightitalic-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_Regular';
+src:url('../fonts/proximanova-reg-webfont.eot');
+src:url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-reg-webfont.svg') format('svg');
+font-weight:300;
+font-style:normal}
+
+@font-face{font-family:'Proxima_Nova_SemiBold';
+src:url('../fonts/proximanova-sbold-webfont.eot');
+src:url('../fonts/proximanova-sbold-webfont.woff') format('woff'),
+url('../fonts/proximanova-sbold-webfont.ttf') format('truetype'),
+url('../fonts/proximanova-sbold-webfont.svg') format('svg');
+font-weight:normal;
+font-style:normal}
+		
+*{max-width: 100%; text-decoration: none; margin: 0; padding: 0;}
+body{font-size: 17px; margin: 0; padding: 0; color: #333; font-family: 'Proxima_Nova_light', arial, sans-serif;
+	 font-weight: 300; letter-spacing: 1px;}
+div{display: block; margin: 0; padding: 0}
+img{border: 0;}
+.container{padding: 0 15px;}
+.Lfloat{float: left;}
+.Rfloat{float: right;}
+.clear{clear: both; height: 1px; line-height: 1px; margin-bottom: -1px; overflow: hidden;}
+a:link{color: inherit; text-decoration: none;}
+a:active{color: inherit;}
+header .container{padding: 15px 0 20px 20px;}
+footer{padding: 25px 0; border-top: 1px solid #62676b; background-color: #fff;}
+footer .container p{font-size: 11.75px; margin-bottom: 10px;}
+.fnt16 a{color: blue;}
+.footer-links{margin: 0 10px;}
